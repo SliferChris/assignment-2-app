@@ -1,0 +1,7 @@
+---
+- name: Deploy app to Kubernetes
+  hosts: localhost
+  tasks:
+    - name: Print deployment message
+      debug:
+        msg: "This would deploy to Kubernetes using kubectl or Helm"
